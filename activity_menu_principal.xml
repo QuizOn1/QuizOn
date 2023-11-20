@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_back_secondary_100"/>
+
+    <TextView
+        android:id="@+id/textSaludo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-45dp"
+        android:text="Saludo a usuario"
+        android:textSize="25sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:text="Menu Principal"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/logorepaso" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="REPASO" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-180dp"
+        app:srcCompat="@drawable/logoquiz" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="QUIZ" />
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/round_back_secondary_100"
+        android:text="Historial de quizzes"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnAsesoria"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/round_back_secondary_100"
+        android:text=" Asesorias"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
